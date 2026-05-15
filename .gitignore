@@ -1,0 +1,17 @@
+```gitignore
+# Dependencies
+node_modules/
+
+# Editors
+.vscode/
+
+# Environment
+.env
+.env.*
+```
+
+Wait, let me reconsider. The added files are just `index.html` and `index.js` - these are source files. There are no build artifacts, dependency directories, or temporary files in the changes. According to rule #6, if the change list contains ONLY source or config files and NO build artifacts, dependencies, or temp files, I should output an EMPTY .gitignore.
+
+```gitignore
+
+```
